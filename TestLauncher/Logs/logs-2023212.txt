@@ -1,0 +1,25 @@
+[12/02/2023 8:05:00 a.m.] [INF] [LauncherBase.cs::StartUpdateProcess@121] ===> [Game updating] process STARTED! <===
+[12/02/2023 8:05:00 a.m.] [INF] [UpdatingContext.cs::Initialize@76] Update context initializing...
+[12/02/2023 8:05:00 a.m.] [INF] [UpdatingContext.cs::Initialize@77] Software version: 2.6.4
+[12/02/2023 8:05:00 a.m.] [INF] [UpdatingContext.cs::Initialize@78] Software tier: basic
+[12/02/2023 8:05:00 a.m.] [INF] [UpdatingContext.cs::Initialize@80] Update context points to https://github.com/foldthirteen/E-I/blob/master/
+[12/02/2023 8:05:00 a.m.] [INF] [UpdatingContext.cs::Initialize@81] Downloader in use: [MHLab.Patch.Core.Client.IO.FileDownloader]
+[12/02/2023 8:05:00 a.m.] [DBG] [UpdatingContext.cs::Initialize@82] ===> Debug Mode: ENABLED <===
+[12/02/2023 8:05:00 a.m.] [WRN] [UpdatingContext.cs::SetCurrentVersion@181] No current version found. A full repair may be required.
+[12/02/2023 8:05:00 a.m.] [INF] [UpdatingContext.cs::Initialize@89] Workspace cleaned. Removed 0 files
+[12/02/2023 8:05:01 a.m.] [WRN] [UpdatingContext.cs::GetPatchesIndex@277] No patches index found on the remote server. The Update process will be skipped.
+[12/02/2023 8:05:01 a.m.] [ERR] [UpdatingContext.cs::GetBuildDefinition@304] Cannot retrieve any new version...
+[12/02/2023 8:05:01 a.m.] [INF] [UpdatingContext.cs::GetLocalFiles@289] Collected information on 1 local files.
+[12/02/2023 8:05:01 a.m.] [ERR] [Launcher.cs::UpdateFailed@128] ===> [Game updating] process FAILED! <=== - One or more errors occurred. -   at System.Threading.Tasks.Task.WaitAll (System.Threading.Tasks.Task[] tasks, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x001d1] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Threading.Tasks.Task.WaitAll (System.Threading.Tasks.Task[] tasks, System.Int32 millisecondsTimeout) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Threading.Tasks.Task.WaitAll (System.Threading.Tasks.Task[] tasks) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.FetchIndexes () [0x0003d] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.Initialize () [0x0015a] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Launcher.Scripts.LauncherBase.StartUpdateProcess () [0x000d5] in C:\Users\ink\Documents\cornerstone\cornerstone\Assets\MHLab\Patch\Launcher\Scripts\LauncherBase.cs:155 
+One or more errors occurred.
+  at System.Threading.Tasks.Task.WaitAll (System.Threading.Tasks.Task[] tasks, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x001d1] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Threading.Tasks.Task.WaitAll (System.Threading.Tasks.Task[] tasks, System.Int32 millisecondsTimeout) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Threading.Tasks.Task.WaitAll (System.Threading.Tasks.Task[] tasks) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.FetchIndexes () [0x0003d] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.Initialize () [0x0015a] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Launcher.Scripts.LauncherBase.StartUpdateProcess () [0x000d5] in C:\Users\ink\Documents\cornerstone\cornerstone\Assets\MHLab\Patch\Launcher\Scripts\LauncherBase.cs:155 
