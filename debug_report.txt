@@ -1,0 +1,24 @@
+===================== START DEBUG REPORT =====================
+==============================================================
+
+OS: Windows 10  (10.0.0) 64bit - Family: Windows
+Processor: Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz 3093MHz (4 vcore)
+Device: Z68M-D2H (Gigabyte Technology Co., Ltd.) - Type: Desktop
+System Memory: 8109MB
+GPU: NVIDIA GeForce GTX 1060 6GB - Vendor: NVIDIA - Type: Direct3D11 - Version: Direct3D 11.0 [level 11.1] - Memory: 6052MB - Shader: 50
+Process: 64 bits - CLR Version: 4.0.30319.42000
+Commandline arguments: "C:\Program Files\Unity\Hub\Editor\2020.1.15f1\Editor\Unity.exe" -projectpath C:\Users\ink\Documents\cornerstone\cornerstone -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-ink -hubSessionId 834bbbe0-aa69-11ed-af3d-577a4e845618 -accessToken 4phmnty_4vNpIOUCiAUo3LIoZzjCT82nb8ks9gK-U2Y010f
+
+Debug Mode => False
+RootPath => C:\Users\ink\Documents\cornerstone\cornerstone\PATCHWorkspace
+AppDataPath => C:\Users\ink\AppData\RoamingSoftwareVersion => 2.6.4GetLogsFilePath() => C:\Users\ink\Documents\cornerstone\cornerstone\PATCHWorkspace\Logs\logs-2023212.txt
+GetApplicationFolderPath() => C:\Users\ink\Documents\cornerstone\cornerstone\PATCHWorkspace\App
+GetBuildsFolderPath() => C:\Users\ink\Documents\cornerstone\cornerstone\PATCHWorkspace\Builds
+GetPatchesFolderPath() => C:\Users\ink\Documents\cornerstone\cornerstone\PATCHWorkspace\Patches
+GetPatchesTempFolderPath() => C:\Users\ink\Documents\cornerstone\cornerstone\PATCHWorkspace\Patches\Temp
+GetUpdaterFolderPath() => C:\Users\ink\Documents\cornerstone\cornerstone\PATCHWorkspace\Updater
+GetDebugReportFilePath() => C:\Users\ink\Documents\cornerstone\cornerstone\PATCHWorkspace\debug_report.txt
+
+
+====================== END DEBUG REPORT ======================
+==============================================================
