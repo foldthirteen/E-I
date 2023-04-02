@@ -1,0 +1,19 @@
+[2/04/2023 8:05:11 a.m.] [INF] ===> [Game updating] process STARTED! <===
+[2/04/2023 8:05:12 a.m.] [INF] Update context initializing...
+[2/04/2023 8:05:12 a.m.] [INF] Software version: 2.6.4
+[2/04/2023 8:05:12 a.m.] [INF] Software tier: basic
+[2/04/2023 8:05:12 a.m.] [INF] Update context points to [REDACTED]
+[2/04/2023 8:05:12 a.m.] [INF] Downloader in use: [MHLab.Patch.Core.Client.IO.FileDownloader]
+[2/04/2023 8:05:12 a.m.] [WRN] No current version found. A full repair may be required.
+[2/04/2023 8:05:12 a.m.] [INF] Workspace cleaned. Removed 0 files
+[2/04/2023 8:05:12 a.m.] [INF] Collected information on 196 local files.
+[2/04/2023 8:05:12 a.m.] [INF] Retrieved definition for 0.1.7
+[2/04/2023 8:05:12 a.m.] [INF] Found 0 applicable updates.
+[2/04/2023 8:05:12 a.m.] [INF] Checking if a more recent version not reachable with patches exists...
+[2/04/2023 8:05:12 a.m.] [INF] No more recent versions not reachable with patches found. Proceeding with [0.1.7]
+[2/04/2023 8:05:12 a.m.] [INF] Update context completed initialization.
+[2/04/2023 8:05:12 a.m.] [INF] Repairing process started.
+[2/04/2023 8:07:49 a.m.] [INF] Repairing process completed. Checked 194 files, repaired 194 files, skipped 0 files.
+[2/04/2023 8:07:49 a.m.] [INF] Update process started.
+[2/04/2023 8:07:49 a.m.] [INF] Update process completed. Applied 0 patches with 0 operations.
+[2/04/2023 8:07:49 a.m.] [INF] ===> [Game updating] process COMPLETED! <===
