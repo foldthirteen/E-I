@@ -1,0 +1,37 @@
+[22/03/2023 2:48:24 a.m.] [INF] [LauncherBase.cs::StartUpdateProcess@121] ===> [Game updating] process STARTED! <===
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::Initialize@76] Update context initializing...
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::Initialize@77] Software version: 2.6.4
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::Initialize@78] Software tier: basic
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::Initialize@80] Update context points to https://raw.githubusercontent.com/foldthirteen/E-I/master/
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::Initialize@81] Downloader in use: [MHLab.Patch.Core.Client.IO.FileDownloader]
+[22/03/2023 2:48:25 a.m.] [DBG] [UpdatingContext.cs::Initialize@82] ===> Debug Mode: ENABLED <===
+[22/03/2023 2:48:25 a.m.] [WRN] [UpdatingContext.cs::SetCurrentVersion@181] No current version found. A full repair may be required.
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::Initialize@89] Workspace cleaned. Removed 0 files
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::GetLocalFiles@289] Collected information on 3 local files.
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::GetBuildDefinition@317] Retrieved definition for 0.1.5
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::GetPatchesShortestPath@376] Found 0 applicable updates.
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::CheckIfRepairToLastBuildIsNeeded@390] Checking if a more recent version not reachable with patches exists...
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::CheckIfRepairToLastBuildIsNeeded@404] No more recent versions not reachable with patches found. Proceeding with [0.1.5]
+[22/03/2023 2:48:25 a.m.] [INF] [UpdatingContext.cs::Initialize@97] Update context completed initialization.
+[22/03/2023 2:48:25 a.m.] [INF] [Repairer.cs::Update@34] Repairing process started.
+[22/03/2023 2:49:54 a.m.] [ERR] [Launcher.cs::UpdateFailed@128] ===> [Game updating] process FAILED! <=== - Could not find file 'C:/Users/JoyE&IServices/Documents/cornerstone/cornerstone/PATCHWorkspace/TestLauncher\Game\inspec.exe'. -   at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000c4] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.IO.FileInfo.get_Length () [0x0003f] in <9577ac7a62ef43179789031239ba8798>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo.get_Length()
+  at MHLab.Patch.Core.IO.FilesManager.GetFileInfo (System.String filePath) [0x0000c] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.IO.FileSystem.GetFileInfo (MHLab.Patch.Core.IO.FilePath path) [0x00000] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Client.Utilities.ValidatorHelper.ValidateLocalFiles (MHLab.Patch.Core.BuildDefinition buildDefinition, MHLab.Patch.Core.IO.IFileSystem fileSystem, MHLab.Patch.Core.Logging.ILogger logger, System.String rootPath) [0x00037] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.Repairer.Update () [0x00316] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.Runners.UpdateRunner.Update () [0x0001d] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.Update () [0x00006] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Launcher.Scripts.LauncherBase.CheckForUpdates () [0x00009] in C:\Users\JoyE&IServices\Documents\cornerstone\cornerstone\Assets\MHLab\Patch\Launcher\Scripts\LauncherBase.cs:202 
+Could not find file 'C:/Users/JoyE&IServices/Documents/cornerstone/cornerstone/PATCHWorkspace/TestLauncher\Game\inspec.exe'.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x000c4] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.IO.FileInfo.get_Length () [0x0003f] in <9577ac7a62ef43179789031239ba8798>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileInfo.get_Length()
+  at MHLab.Patch.Core.IO.FilesManager.GetFileInfo (System.String filePath) [0x0000c] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.IO.FileSystem.GetFileInfo (MHLab.Patch.Core.IO.FilePath path) [0x00000] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Client.Utilities.ValidatorHelper.ValidateLocalFiles (MHLab.Patch.Core.BuildDefinition buildDefinition, MHLab.Patch.Core.IO.IFileSystem fileSystem, MHLab.Patch.Core.Logging.ILogger logger, System.String rootPath) [0x00037] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.Repairer.Update () [0x00316] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.Runners.UpdateRunner.Update () [0x0001d] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.Update () [0x00006] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Launcher.Scripts.LauncherBase.CheckForUpdates () [0x00009] in C:\Users\JoyE&IServices\Documents\cornerstone\cornerstone\Assets\MHLab\Patch\Launcher\Scripts\LauncherBase.cs:202 

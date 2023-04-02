@@ -1,0 +1,31 @@
+[15/02/2023 8:07:06 a.m.] [INF] [LauncherBase.cs::StartUpdateProcess@121] ===> [Game updating] process STARTED! <===
+[15/02/2023 8:07:36 a.m.] [ERR] [LauncherBase.cs::CheckForRemoteServiceAvailability@188] [Game updating] process FAILED! Our servers are not responding... Wait some minutes and retry!
+Error: NameResolutionFailure
+  at System.Net.WebConnection+<Connect>d__16.MoveNext () [0x00044] in <aa976c2104104b7ca9e1785715722c9d>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable+ConfiguredTaskAwaiter.GetResult () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Net.WebConnection+<InitConnection>d__19.MoveNext () [0x000cc] in <aa976c2104104b7ca9e1785715722c9d>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Net.WebOperation+<Run>d__54.MoveNext () [0x000a0] in <aa976c2104104b7ca9e1785715722c9d>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Net.HttpWebRequest.GetResponse () [0x00013] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at System.Net.WebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <aa976c2104104b7ca9e1785715722c9d>:0 
+  at MHLab.Patch.Core.Client.IO.PreAuthenticatedWebClient.GetStatusCode (System.Uri address) [0x00016] in <103ebc4de83149089c4c224f1208446b>:0 
+  at (wrapper remoting-invoke-with-check) MHLab.Patch.Core.Client.IO.PreAuthenticatedWebClient.GetStatusCode(System.Uri)
+  at MHLab.Patch.Core.Client.IO.NetworkChecker.IsRemoteServiceAvailable (System.String url, System.Exception& exception) [0x00026] in <103ebc4de83149089c4c224f1208446b>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Net.WebOperation+<FinishReading>d__55.MoveNext () [0x00089] in <aa976c2104104b7ca9e1785715722c9d>:0 
