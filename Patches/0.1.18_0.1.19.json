@@ -1,0 +1,36 @@
+{
+  "From" : "0.1.18",
+  "To" : "0.1.19",
+  "Hash" : "wdZn76KsBIrnalnb7JRF63izmeU",
+  "TotalSize" : 42077,
+  "Entries" : [
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/globalgamemanagers",
+      "Attributes" : 32,
+      "LastWriting" : "2023-05-08 02:44:17Z",
+      "Size" : 96844
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/level0",
+      "Attributes" : 32,
+      "LastWriting" : "2023-05-08 02:44:14Z",
+      "Size" : 22635704
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/Managed/Assembly-CSharp.dll",
+      "Attributes" : 32,
+      "LastWriting" : "2023-05-08 02:44:01Z",
+      "Size" : 724992
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "version.data",
+      "Attributes" : 32,
+      "LastWriting" : "2023-05-08 02:46:08Z",
+      "Size" : 24
+    }
+  ]
+}
