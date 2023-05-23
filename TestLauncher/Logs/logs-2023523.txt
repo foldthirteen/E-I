@@ -1,0 +1,80 @@
+[23/05/2023 8:04:03 a.m.] [INF] [LauncherBase.cs::StartUpdateProcess@121] ===> [Game updating] process STARTED! <===
+[23/05/2023 8:04:04 a.m.] [INF] [UpdatingContext.cs::Initialize@76] Update context initializing...
+[23/05/2023 8:04:04 a.m.] [INF] [UpdatingContext.cs::Initialize@77] Software version: 2.6.4
+[23/05/2023 8:04:04 a.m.] [INF] [UpdatingContext.cs::Initialize@78] Software tier: basic
+[23/05/2023 8:04:04 a.m.] [INF] [UpdatingContext.cs::Initialize@80] Update context points to https://raw.githubusercontent.com/foldthirteen/E-I/master/
+[23/05/2023 8:04:04 a.m.] [INF] [UpdatingContext.cs::Initialize@81] Downloader in use: [MHLab.Patch.Core.Client.IO.FileDownloader]
+[23/05/2023 8:04:04 a.m.] [DBG] [UpdatingContext.cs::Initialize@82] ===> Debug Mode: ENABLED <===
+[23/05/2023 8:04:04 a.m.] [INF] [UpdatingContext.cs::SetCurrentVersion@170] Retrieved current version: 0.1.2
+[23/05/2023 8:04:04 a.m.] [INF] [UpdatingContext.cs::Initialize@89] Workspace cleaned. Removed 0 files
+[23/05/2023 8:04:04 a.m.] [INF] [UpdatingContext.cs::GetLocalFiles@289] Collected information on 344 local files.
+[23/05/2023 8:04:05 a.m.] [INF] [UpdatingContext.cs::GetBuildDefinition@317] Retrieved definition for 0.1.2
+[23/05/2023 8:04:05 a.m.] [INF] [UpdatingContext.cs::GetPatchesShortestPath@376] Found 1 applicable updates.
+[23/05/2023 8:04:05 a.m.] [DBG] [UpdatingContext.cs::CheckIfRepairToLastBuildIsNeeded@386] [1] patches found, repairing to the latest version can be skipped...
+[23/05/2023 8:04:05 a.m.] [INF] [UpdatingContext.cs::Initialize@97] Update context completed initialization.
+[23/05/2023 8:04:05 a.m.] [INF] [Repairer.cs::Update@34] Repairing process started.
+[23/05/2023 8:04:23 a.m.] [DBG] [ValidatorHelper.cs::ValidateLocalFiles@52] The following files are not valid after debug validation: 
+[main_Data/StreamingAssets/print/exe/NamePlt.exe.config] with expected size of [144]. Found [141]
+[MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser] with expected size of [1605]. Found [1586]
+[MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser] with expected size of [1605]. Found [1586]
+[MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser] with expected size of [1605]. Found [1586]
+
+[23/05/2023 8:04:23 a.m.] [ERR] [Launcher.cs::UpdateFailed@128] ===> [Game updating] process FAILED! <=== - Exception of type 'MHLab.Patch.Core.Utilities.Asserts.AssertFailedException' was thrown. -   at MHLab.Patch.Core.Utilities.Asserts.Assert.AlwaysFail () [0x00005] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Utilities.Asserts.Assert.AlwaysCheck (System.Boolean condition) [0x00003] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Client.Repairer.Update () [0x0031b] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.Runners.UpdateRunner.Update () [0x0001d] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.Update () [0x00006] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Launcher.Scripts.LauncherBase.CheckForUpdates () [0x00009] in C:\Users\JoyE&IServices\Documents\cornerstone\cornerstone\Assets\MHLab\Patch\Launcher\Scripts\LauncherBase.cs:202 
+Exception of type 'MHLab.Patch.Core.Utilities.Asserts.AssertFailedException' was thrown.
+  at MHLab.Patch.Core.Utilities.Asserts.Assert.AlwaysFail () [0x00005] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Utilities.Asserts.Assert.AlwaysCheck (System.Boolean condition) [0x00003] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Client.Repairer.Update () [0x0031b] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.Runners.UpdateRunner.Update () [0x0001d] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.Update () [0x00006] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Launcher.Scripts.LauncherBase.CheckForUpdates () [0x00009] in C:\Users\JoyE&IServices\Documents\cornerstone\cornerstone\Assets\MHLab\Patch\Launcher\Scripts\LauncherBase.cs:202 
+[23/05/2023 8:04:26 a.m.] [INF] ===> [Launcher updating] process STARTED! <===
+[23/05/2023 8:04:26 a.m.] [INF] Update context initializing...
+[23/05/2023 8:04:26 a.m.] [INF] Software version: 2.6.4
+[23/05/2023 8:04:26 a.m.] [INF] Software tier: basic
+[23/05/2023 8:04:26 a.m.] [INF] Update context points to [REDACTED]
+[23/05/2023 8:04:26 a.m.] [INF] Downloader in use: [MHLab.Patch.Core.Client.IO.FileDownloader]
+[23/05/2023 8:04:27 a.m.] [INF] Retrieved current version: 0.1.2
+[23/05/2023 8:04:27 a.m.] [INF] Workspace cleaned. Removed 0 files
+[23/05/2023 8:04:27 a.m.] [INF] Collected information on 344 local files.
+[23/05/2023 8:04:27 a.m.] [INF] Retrieved definition for 0.1.2
+[23/05/2023 8:04:27 a.m.] [INF] Found 1 applicable updates.
+[23/05/2023 8:04:27 a.m.] [INF] Update context completed initialization.
+[23/05/2023 8:04:27 a.m.] [INF] Launcher update started. The update contains 205 operations.
+[23/05/2023 8:04:28 a.m.] [ERR] ===> [Launcher updating] process FAILED! <=== -  -   at System.Security.Cryptography.SHA1Internal.FillBuff (System.UInt32[] buff) [0x0007b] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Security.Cryptography.SHA1Internal.ProcessBlock (System.Byte[] inputBuffer, System.UInt32 inputOffset) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Security.Cryptography.SHA1Internal.HashCore (System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize) [0x00077] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Security.Cryptography.SHA1CryptoServiceProvider.HashCore (System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize) [0x00007] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Security.Cryptography.HashAlgorithm.ComputeHash (System.IO.Stream inputStream) [0x0002c] in <9577ac7a62ef43179789031239ba8798>:0 
+  at MHLab.Patch.Core.Utilities.Hashing.GetHash (System.IO.Stream s, System.Security.Cryptography.HashAlgorithm hasher) [0x00000] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Utilities.Hashing.GetHash (System.String filePath, System.Security.Cryptography.HashAlgorithm hasher, MHLab.Patch.Core.IO.IFileSystem fileSystem) [0x00032] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Utilities.Hashing.GetFileHash (System.String filePath, MHLab.Patch.Core.IO.IFileSystem fileSystem) [0x00006] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.IsValid (MHLab.Patch.Core.UpdaterDefinitionEntry entry, MHLab.Patch.Core.Client.PatcherUpdater+FileValidityDifference& difference) [0x0006e] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.HandleAddedFile (MHLab.Patch.Core.UpdaterDefinitionEntry entry) [0x0004f] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.HandleUnchangedFile (MHLab.Patch.Core.UpdaterDefinitionEntry entry) [0x00000] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.HandleUpdate () [0x001a5] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.Update () [0x000de] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.Runners.UpdateRunner.Update () [0x0001d] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.Update () [0x00006] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Launcher.Scripts.LauncherBase.CheckForUpdates () [0x00006] in <07bad71048a24abcabd349326155be3d>:0 
+
+  at System.Security.Cryptography.SHA1Internal.FillBuff (System.UInt32[] buff) [0x0007b] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Security.Cryptography.SHA1Internal.ProcessBlock (System.Byte[] inputBuffer, System.UInt32 inputOffset) [0x00029] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Security.Cryptography.SHA1Internal.HashCore (System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize) [0x00077] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Security.Cryptography.SHA1CryptoServiceProvider.HashCore (System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize) [0x00007] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Security.Cryptography.HashAlgorithm.ComputeHash (System.IO.Stream inputStream) [0x0002c] in <9577ac7a62ef43179789031239ba8798>:0 
+  at MHLab.Patch.Core.Utilities.Hashing.GetHash (System.IO.Stream s, System.Security.Cryptography.HashAlgorithm hasher) [0x00000] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Utilities.Hashing.GetHash (System.String filePath, System.Security.Cryptography.HashAlgorithm hasher, MHLab.Patch.Core.IO.IFileSystem fileSystem) [0x00032] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Utilities.Hashing.GetFileHash (System.String filePath, MHLab.Patch.Core.IO.IFileSystem fileSystem) [0x00006] in <d5ff38fee53e48bcb4fbe4fa8f3f6dac>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.IsValid (MHLab.Patch.Core.UpdaterDefinitionEntry entry, MHLab.Patch.Core.Client.PatcherUpdater+FileValidityDifference& difference) [0x0006e] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.HandleAddedFile (MHLab.Patch.Core.UpdaterDefinitionEntry entry) [0x0004f] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.HandleUnchangedFile (MHLab.Patch.Core.UpdaterDefinitionEntry entry) [0x00000] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.HandleUpdate () [0x001a5] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.PatcherUpdater.Update () [0x000de] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.Runners.UpdateRunner.Update () [0x0001d] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Core.Client.UpdatingContext.Update () [0x00006] in <103ebc4de83149089c4c224f1208446b>:0 
+  at MHLab.Patch.Launcher.Scripts.LauncherBase.CheckForUpdates () [0x00006] in <07bad71048a24abcabd349326155be3d>:0 
