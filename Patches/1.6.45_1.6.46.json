@@ -1,0 +1,64 @@
+{
+  "From" : "1.6.45",
+  "To" : "1.6.46",
+  "Hash" : "M6L3pBLeS+/+FHnVxyPznQLF0Pc",
+  "TotalSize" : 1282167,
+  "Entries" : [
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/globalgamemanagers",
+      "Attributes" : 32,
+      "LastWriting" : "2025-07-14 02:22:49Z",
+      "Size" : 189708
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/globalgamemanagers.assets",
+      "Attributes" : 32,
+      "LastWriting" : "2025-07-14 02:22:50Z",
+      "Size" : 212840
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/level0",
+      "Attributes" : 32,
+      "LastWriting" : "2025-07-14 02:22:35Z",
+      "Size" : 2721440
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/resources.assets",
+      "Attributes" : 32,
+      "LastWriting" : "2025-07-14 02:22:51Z",
+      "Size" : 16198432
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/sharedassets0.assets",
+      "Attributes" : 32,
+      "LastWriting" : "2025-07-14 02:23:18Z",
+      "Size" : 26648500
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/sharedassets0.assets.resS",
+      "Attributes" : 32,
+      "LastWriting" : "2025-07-14 02:23:18Z",
+      "Size" : 66258824
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/Managed/Assembly-CSharp.dll",
+      "Attributes" : 32,
+      "LastWriting" : "2025-07-14 02:22:15Z",
+      "Size" : 1428480
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "version.data",
+      "Attributes" : 32,
+      "LastWriting" : "2025-07-14 02:23:52Z",
+      "Size" : 24
+    }
+  ]
+}
