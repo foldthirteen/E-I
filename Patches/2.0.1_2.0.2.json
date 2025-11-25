@@ -1,0 +1,111 @@
+{
+  "From" : "2.0.1",
+  "To" : "2.0.2",
+  "Hash" : "cTbtZbyH6ipm3EatFHaQGE91Wjs",
+  "TotalSize" : 17733036,
+  "Entries" : [
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/boot.config",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:42Z",
+      "Size" : 153
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/globalgamemanagers",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:14Z",
+      "Size" : 216916
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/globalgamemanagers.assets",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:14Z",
+      "Size" : 294356
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/level0",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:14Z",
+      "Size" : 2823544
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/resources.assets",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:14Z",
+      "Size" : 14951528
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/sharedassets0.assets",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:14Z",
+      "Size" : 24021208
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/Managed/Assembly-CSharp-firstpass.dll",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:55Z",
+      "Size" : 70144
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/Managed/Assembly-CSharp.dll",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:53Z",
+      "Size" : 1653248
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/Managed/Unity.RemoteConfig.Editor.Core.dll",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:55Z",
+      "Size" : 6656
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/Managed/Unity.Services.RemoteConfig.dll",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:55Z",
+      "Size" : 37888
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "main_Data/StreamingAssets/FMSA_Index",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:14Z",
+      "Size" : 1332
+    },
+    {
+      "Operation" : 4,
+      "RelativePath" : "main_Data/StreamingAssets/realms/uni-dev",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:14Z",
+      "Size" : 38649856
+    },
+    {
+      "Operation" : 4,
+      "RelativePath" : "main_Data/StreamingAssets/realms/uni-prod",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:18:14Z",
+      "Size" : 24952832
+    },
+    {
+      "Operation" : 2,
+      "RelativePath" : "version.data",
+      "Attributes" : 32,
+      "LastWriting" : "2025-11-25 21:20:52Z",
+      "Size" : 24
+    },
+    {
+      "Operation" : 1,
+      "RelativePath" : "main_Data/Managed/Microsoft.CSharp.dll",
+      "Size" : 301568
+    }
+  ]
+}
